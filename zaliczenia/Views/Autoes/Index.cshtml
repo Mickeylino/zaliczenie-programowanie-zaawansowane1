@@ -1,0 +1,41 @@
+﻿@model IEnumerable<zaliczenia.Models.Auto>
+
+@{
+    ViewData["Title"] = "Samochody";
+}
+
+<h1>Samochody</h1>
+
+<p>
+    <a asp-action="Create">Stworz nowy</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Marka)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nazwa)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marka)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nazwa)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edytuj</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Szczegoly</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Usun</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
