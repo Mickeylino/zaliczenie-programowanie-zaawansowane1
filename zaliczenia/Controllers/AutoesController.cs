@@ -20,12 +20,6 @@ namespace zaliczenia.Controllers
             _context = context;
         }
 
-        // GET: Autoes
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Auto.ToListAsync());
-        }
-
         // GET: Autoes/Search
         public async Task<IActionResult> Search()
         {
@@ -35,7 +29,13 @@ namespace zaliczenia.Controllers
         // POST: Autoes/SearchResults
         public async Task<IActionResult> SearchResults(String SearchPhrase)
         {
-            return View("Index", await _context.Auto.Where(a=>a.Nazwa.Contains(SearchPhrase)).ToListAsync());
+            return View("Index", await _context.Auto.Where(a => a.Nazwa.Contains(SearchPhrase)).ToListAsync());
+        }
+
+        // GET: Autoes
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Auto.ToListAsync());
         }
 
         // GET: Autoes/Details/5
@@ -57,7 +57,6 @@ namespace zaliczenia.Controllers
         }
 
         // GET: Autoes/Create
-        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -66,10 +65,10 @@ namespace zaliczenia.Controllers
         // POST: Autoes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Marka,Nazwa")] Auto auto)
+        [Authorize]
+        public async Task<IActionResult> Create([Bind("Id,Marka,Nazwa,Wlasciciel")] Auto auto)
         {
             if (ModelState.IsValid)
             {
@@ -81,7 +80,6 @@ namespace zaliczenia.Controllers
         }
 
         // GET: Autoes/Edit/5
-        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -100,10 +98,10 @@ namespace zaliczenia.Controllers
         // POST: Autoes/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Marka,Nazwa")] Auto auto)
+        [Authorize]
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Marka,Nazwa,Wlasciciel")] Auto auto)
         {
             if (id != auto.Id)
             {
@@ -134,7 +132,6 @@ namespace zaliczenia.Controllers
         }
 
         // GET: Autoes/Delete/5
-        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -153,9 +150,9 @@ namespace zaliczenia.Controllers
         }
 
         // POST: Autoes/Delete/5
-        [Authorize]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var auto = await _context.Auto.FindAsync(id);

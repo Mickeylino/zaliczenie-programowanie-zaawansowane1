@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\devel\\Source\\Repos\\zaliczenia\\zaliczenia\\zaliczenia.csproj": {}
+    "C:\\Users\\mjago\\OneDrive\\Pulpit\\zaliczenie-programowanie-zaawansowane1\\zaliczenia\\zaliczenia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\devel\\Source\\Repos\\zaliczenia\\zaliczenia\\zaliczenia.csproj": {
+    "C:\\Users\\mjago\\OneDrive\\Pulpit\\zaliczenie-programowanie-zaawansowane1\\zaliczenia\\zaliczenia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\devel\\Source\\Repos\\zaliczenia\\zaliczenia\\zaliczenia.csproj",
+        "projectUniqueName": "C:\\Users\\mjago\\OneDrive\\Pulpit\\zaliczenie-programowanie-zaawansowane1\\zaliczenia\\zaliczenia.csproj",
         "projectName": "zaliczenia",
-        "projectPath": "C:\\Users\\devel\\Source\\Repos\\zaliczenia\\zaliczenia\\zaliczenia.csproj",
-        "packagesPath": "C:\\Users\\devel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devel\\Source\\Repos\\zaliczenia\\zaliczenia\\obj\\",
+        "projectPath": "C:\\Users\\mjago\\OneDrive\\Pulpit\\zaliczenie-programowanie-zaawansowane1\\zaliczenia\\zaliczenia.csproj",
+        "packagesPath": "C:\\Users\\mjago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mjago\\OneDrive\\Pulpit\\zaliczenie-programowanie-zaawansowane1\\zaliczenia\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\devel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mjago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -42,7 +52,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -65,12 +75,14 @@
               "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             }
           },
           "imports": [
@@ -92,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

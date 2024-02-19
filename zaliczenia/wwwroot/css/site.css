@@ -18,5 +18,14 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-image: linear-gradient(rgba(200, 200, 200, 0.8), rgba(200, 200, 200, 0.8)), url("../road.jpg");
+}
+
+.navbar {
+    background-image: linear-gradient(rgba(200, 200, 200, 0.8), rgba(200, 200, 200, 0.8)), url("../road.jpg");
+}
+
+.text-dark {
+    color: black;
 }

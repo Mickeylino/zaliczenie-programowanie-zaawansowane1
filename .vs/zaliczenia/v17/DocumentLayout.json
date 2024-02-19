@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mjago\\OneDrive\\Pulpit\\zaliczenie-programowanie-zaawansowane1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F4AE6B6-27A6-4852-8758-3F53C6DA20FD}|zaliczenia\\zaliczenia.csproj|c:\\users\\mjago\\onedrive\\pulpit\\zaliczenie-programowanie-zaawansowane1\\zaliczenia\\controllers\\autoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F4AE6B6-27A6-4852-8758-3F53C6DA20FD}|zaliczenia\\zaliczenia.csproj|solutionrelative:zaliczenia\\controllers\\autoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F4AE6B6-27A6-4852-8758-3F53C6DA20FD}|zaliczenia\\zaliczenia.csproj|c:\\users\\mjago\\onedrive\\pulpit\\zaliczenie-programowanie-zaawansowane1\\zaliczenia\\models\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F4AE6B6-27A6-4852-8758-3F53C6DA20FD}|zaliczenia\\zaliczenia.csproj|solutionrelative:zaliczenia\\models\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F4AE6B6-27A6-4852-8758-3F53C6DA20FD}|zaliczenia\\zaliczenia.csproj|c:\\users\\mjago\\onedrive\\pulpit\\zaliczenie-programowanie-zaawansowane1\\zaliczenia\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F4AE6B6-27A6-4852-8758-3F53C6DA20FD}|zaliczenia\\zaliczenia.csproj|solutionrelative:zaliczenia\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutoesController.cs",
+              "DocumentMoniker": "C:\\Users\\mjago\\OneDrive\\Pulpit\\zaliczenie-programowanie-zaawansowane1\\zaliczenia\\Controllers\\AutoesController.cs",
+              "RelativeDocumentMoniker": "zaliczenia\\Controllers\\AutoesController.cs",
+              "ToolTip": "C:\\Users\\mjago\\OneDrive\\Pulpit\\zaliczenie-programowanie-zaawansowane1\\zaliczenia\\Controllers\\AutoesController.cs",
+              "RelativeToolTip": "zaliczenia\\Controllers\\AutoesController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T10:29:45.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Auto.cs",
+              "DocumentMoniker": "C:\\Users\\mjago\\OneDrive\\Pulpit\\zaliczenie-programowanie-zaawansowane1\\zaliczenia\\Models\\Auto.cs",
+              "RelativeDocumentMoniker": "zaliczenia\\Models\\Auto.cs",
+              "ToolTip": "C:\\Users\\mjago\\OneDrive\\Pulpit\\zaliczenie-programowanie-zaawansowane1\\zaliczenia\\Models\\Auto.cs",
+              "RelativeToolTip": "zaliczenia\\Models\\Auto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T10:29:40.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "serviceDependencies.json",
+              "DocumentMoniker": "C:\\Users\\mjago\\OneDrive\\Pulpit\\zaliczenie-programowanie-zaawansowane1\\zaliczenia\\Properties\\serviceDependencies.json",
+              "RelativeDocumentMoniker": "zaliczenia\\Properties\\serviceDependencies.json",
+              "ToolTip": "C:\\Users\\mjago\\OneDrive\\Pulpit\\zaliczenie-programowanie-zaawansowane1\\zaliczenia\\Properties\\serviceDependencies.json",
+              "RelativeToolTip": "zaliczenia\\Properties\\serviceDependencies.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-19T10:29:30.901Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
